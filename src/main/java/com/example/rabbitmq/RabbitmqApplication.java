@@ -6,9 +6,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "com.example")
-public class SpringBootRabbitmqApplication {
+public class RabbitmqApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootRabbitmqApplication.class, args);
+		SpringApplication.run(RabbitmqApplication.class, args);
 	}
 }
